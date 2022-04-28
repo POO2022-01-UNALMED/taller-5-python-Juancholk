@@ -28,6 +28,7 @@ class Zoologico:
             cls._zonas.append(zona)
     
     def cantidadTotalAnimales(self):
+        from gestion.zona import Zona
         cont = 0
         for zona in self._zonas:
             cont += Zona.cantidadTotalAnimales()
