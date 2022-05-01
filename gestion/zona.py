@@ -28,6 +28,3 @@ class Zona:
             self._animales.append(animal)
     def cantidadAnimales(self):
         return len(self._animales)
-    
-    def cantidadTotalAnimales(cls):
-        return len(cls._animales)
